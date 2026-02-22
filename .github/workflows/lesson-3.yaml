@@ -26,6 +26,6 @@ jobs:
         working-directory: frontend
     steps:
       - uses: actions/checkout@v4
-        run: npm install
+      - run: npm install
       - name: Run functional tests
         run: npm test
